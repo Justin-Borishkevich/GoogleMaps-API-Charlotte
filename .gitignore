@@ -1,0 +1,43 @@
+# === Android/Gradle ===
+.gradle/
+build/
+*/build/               # module‑level build dirs
+
+# === Local config & secrets ===
+local.properties       # SDK paths
+secrets.properties     # API keys (Maps, etc.)
+*.local                # any other per‑dev overrides
+
+# === IDE files ===
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IntelliJ project-specific
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# === Generated JNI / CMake ===
+.cxx/
+.externalNativeBuild/
+
+# === Captures & logs ===
+captures/
+*.log
+crashlytics-build.properties
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Kotlin/Java ===
+*.class
+
+# === Signing keys ===
+*.jks
+*.keystore

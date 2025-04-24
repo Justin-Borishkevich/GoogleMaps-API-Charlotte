@@ -1,0 +1,12 @@
+# Build output
+build/
+
+# Generated binding files
+generated/
+
+# Local config or secrets (if any)
+*.local
+*.keystore
+
+# Intermediate files
+intermediates/
